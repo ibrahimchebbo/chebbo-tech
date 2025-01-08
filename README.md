@@ -1,68 +1,151 @@
-# Chebbo Tech
-Chebbo Tech – Innovative tech solutions, services, and insights for a digital world
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Oracle Legal Notices</title>
-<link rel="stylesheet" href="../css/blafdoc.css" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chebbo Tech - IT Consulting Services</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .hero {
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .services, .about, .contact {
+      padding: 50px 20px;
+    }
+    .service-item {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .service-item:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 <body>
-<h1>Oracle Legal Notices</h1>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to Chebbo Tech</h1>
+    <p>Innovative IT Consulting Solutions for a Digital World</p>
+    <a href="#services" class="btn btn-light btn-lg">Our Services</a>
+    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+  </div>
 
-<h2>Copyright Notice</h2>
-<p>Copyright &copy; 1994-2014, Oracle and/or its affiliates. All rights reserved.</p>
+  <!-- About Section -->
+  <section class="about bg-light" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Chebbo Tech</h2>
+          <p>At Chebbo Tech, we specialize in delivering cutting-edge IT consulting services to businesses of all sizes. Our expertise spans cloud solutions, cybersecurity, digital transformation, and more. We partner with you to drive your business forward with technology.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x300" alt="IT Consulting" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>License Restrictions Warranty/Consequential Damages Disclaimer</h2>
-<p>This software and related documentation are provided under a license agreement containing restrictions on use and disclosure and are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may not use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish, or display any part, in any form, or by any means. Reverse engineering, disassembly, or decompilation of this software, unless required by law for interoperability, is prohibited.</p>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="text-center">Our Services</h2>
+      <p class="text-center">Explore the wide range of IT consulting services we offer:</p>
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Cloud Solutions</h3>
+            <p>Leverage the power of cloud computing to scale your business operations efficiently.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Cybersecurity</h3>
+            <p>Protect your business from threats with our advanced cybersecurity solutions.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Digital Transformation</h3>
+            <p>Revolutionize your business with cutting-edge technology and processes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Warranty Disclaimer</h2>
-<p>The information contained herein is subject to change without notice and is not warranted to be error-free. If you find any errors, please report them to us in writing.</p>
+  <!-- Testimonials Section -->
+  <section class="testimonials bg-light">
+    <div class="container">
+      <h2 class="text-center">What Our Clients Say</h2>
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Chebbo Tech helped us transition to the cloud seamlessly. Their expertise is unmatched!"</p>
+            <footer class="blockquote-footer">John Doe, CEO of XYZ Corp</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Our cybersecurity posture has improved dramatically thanks to Chebbo Tech's guidance."</p>
+            <footer class="blockquote-footer">Jane Smith, CTO of ABC Inc.</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Their IT consultants are knowledgeable and responsive. Highly recommended!"</p>
+            <footer class="blockquote-footer">Emily Johnson, Director of IT at LMN Ltd.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>Restricted Rights Notice</h2>
-<p>If this is software or related documentation that is delivered to the U.S. Government or anyone licensing it on behalf of the U.S. Government, then the following notice is applicable:</p>
-<p>U.S. GOVERNMENT END USERS: Oracle programs, including any operating system, integrated software, any programs installed on the hardware, and/or documentation, delivered to U.S. Government end users are "commercial computer software" pursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other rights are granted to the U.S. Government.</p>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <p class="text-center">Have a question or need help? Reach out to us today!</p>
+      <form class="contact-form mt-4" action="#" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <textarea class="form-control mt-3" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-<h2>Hazardous Applications Notice</h2>
-<p>This software or hardware is developed for general use in a variety of information management applications. It is not developed or intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate fail-safe, backup, redundancy, and other measures to ensure its safe use. Oracle Corporation and its affiliates disclaim any liability for any damages caused by use of this software or hardware in dangerous applications.</p>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Chebbo Tech. All rights reserved. | Designed with ❤️</p>
+  </footer>
 
-<h2>Trademark Notice</h2>
-<p>Oracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.</p>
-<p>Intel and Intel Xeon are trademarks or registered trademarks of Intel Corporation. All SPARC trademarks are used under license and are trademarks or registered trademarks of SPARC International, Inc. AMD, Opteron, the AMD logo, and the AMD Opteron logo are trademarks or registered trademarks of Advanced Micro Devices. UNIX is a registered trademark of The Open Group.</p>
-
-<h2>Third-Party Content, Products, and Services Disclaimer</h2>
-<p>This software or hardware and documentation may provide access to or information about content, products, and services from third parties. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect to third-party content, products, and services unless otherwise set forth in an applicable agreement between you and Oracle. Oracle Corporation and its affiliates will not be responsible for any loss, costs, or damages incurred due to your access to or use of third-party content, products, or services, except as set forth in an applicable agreement between you and Oracle.</p>
-
-<h2>Alpha and Beta Draft Documentation Notice</h2>
-<p>If this document is in preproduction status:</p>
-<p>This documentation is in preproduction status and is intended for demonstration and preliminary use only. It may not be specific to the hardware on which you are using the software. Oracle Corporation and its affiliates are not responsible for and expressly disclaim all warranties of any kind with respect to this documentation and will not be responsible for any loss, costs, or damages incurred due to the use of this documentation.</p>
-
-<h2>Private Alpha and Beta Draft Documentation Notice</h2>
-<p>If this document is in private preproduction status:</p>
-<p>The information contained in this document is for
-informational sharing purposes only and should be considered in your
-capacity as a customer advisory board member or pursuant to your beta
-trial agreement only. It is not a commitment to deliver any material,
-code, or functionality, and should not be relied upon in making
-purchasing decisions. The development, release, and timing of any
-features or functionality described in this document remains at the
-sole discretion of Oracle.</p>
-<p>This document in any form, software or printed matter, contains proprietary information that is the exclusive property
-of Oracle. Your access to and use of this confidential material is
-subject to the terms and conditions of your Oracle Master Agreement, Oracle License and Services Agreement, Oracle PartnerNetwork Agreement, Oracle distribution agreement, or other license agreement which has been executed by you and Oracle and with which you agree to
-comply. This document and information contained herein may not be
-disclosed, copied, reproduced, or distributed to anyone outside Oracle
-without prior written consent of Oracle. This document is not part of
-your license agreement nor can it be incorporated into any contractual
-agreement with Oracle or its subsidiaries or affiliates.</p>
-
-<h2>Documentation Accessibility</h2>
-<p>For information about Oracle's commitment to accessibility, visit the Oracle Accessibility Program website at <code><a href="http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=docacc">http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=docacc</a></code>.</p>
-<p>Access to Oracle Support</p>
-<p>Oracle customers that have purchased support have access to electronic support through My Oracle Support. For information, visit <code><a href="http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=info">http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=info</a></code> or visit <code><a href="http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=trs">http://www.oracle.com/pls/topic/lookup?ctx=acc&amp;id=trs</a></code> if you are hearing impaired.</p>
-
-
-<p><img src="../gifs/oracle.gif" alt="Oracle Logo" /></p>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
